@@ -1,7 +1,7 @@
 import streamlit as st
 import main
 
-api_key = "OJ7lcIpMzCZUOogrbUacMJDtccETtTv8ugvpA2bK"
+api_key = "redacted"
 url = f"https://api.nasa.gov/planetary/apod?api_key={api_key}"
 main.get_picture(url)
 description = main.get_description(url)
